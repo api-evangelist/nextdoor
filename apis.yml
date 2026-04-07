@@ -1,8 +1,8 @@
 aid: nextdoor
 name: Nextdoor
 description: >-
-  Nextdoor for DevelopersAdvertise, share, and display content to connect with a
-  local audience 
+  Nextdoor for DevelopersAdvertise, share, and display content to connect with a local
+  audience.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -18,8 +18,8 @@ apis:
   - aid: nextdoor:nextdoor
     name: Nextdoor
     description: >-
-      Nextdoor for DevelopersAdvertise, share, and display content to connect
-      with a local audience 
+      Nextdoor for DevelopersAdvertise, share, and display content to connect with
+      a local audience.
     humanURL: ' https://developer.nextdoor.com/'
     tags:
       - API
