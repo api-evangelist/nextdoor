@@ -7,8 +7,7 @@ type: Index
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
+tags: []
 created: '2025-02-09'
 modified: '2026-03-16'
 url: >-
@@ -21,8 +20,7 @@ apis:
       Nextdoor for DevelopersAdvertise, share, and display content to connect with
       a local audience.
     humanURL: ' https://developer.nextdoor.com/'
-    tags:
-      - API
+    tags: []
     properties:
       - type: Documentation
         url: ' https://developer.nextdoor.com/'
