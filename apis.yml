@@ -39,7 +39,7 @@ apis:
         url: https://developer.nextdoor.com/docs
       - type: Reference
         url: https://developer.nextdoor.com/reference
-      - type: Changelog
+      - type: ChangeLog
         url: https://developer.nextdoor.com/changelog
 common:
   - type: Documentation
@@ -50,7 +50,7 @@ common:
     name: Nextdoor API Reference
     description: API reference documentation for Nextdoor.
     url: https://developer.nextdoor.com/reference
-  - type: Changelog
+  - type: ChangeLog
     name: Nextdoor Changelog
     description: Changelog of Nextdoor API and platform updates.
     url: https://developer.nextdoor.com/changelog
