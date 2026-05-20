@@ -42,6 +42,10 @@ apis:
       - type: ChangeLog
         url: https://developer.nextdoor.com/changelog
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Nextdoor
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nextdoor-com
   - type: Documentation
     name: Nextdoor Developer Documentation
     description: Official developer documentation for Nextdoor APIs.
