@@ -2,7 +2,7 @@
 
 Nextdoor for Developers offers APIs to advertise on, share to, and display content from Nextdoor, the neighborhood-based social network. The developer platform groups capabilities into Advertising APIs (campaign management and measurement), Sharing APIs (Share Plugin and Publish to Nextdoor), and Displaying Content APIs (Trending Posts, Search, and Public Agency Feed).
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml)
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml)
 
 ## Scope
 
@@ -29,7 +29,7 @@ Nextdoor for Developers offers APIs to advertise on, share to, and display conte
 
 Nextdoor developer platform with Advertising, Sharing, and Content Display APIs for connecting with hyperlocal audiences.
 
-**Human URL:** [https://developer.nextdoor.com/](https://developer.nextdoor.com/)
+- **Human URL:** [https://developer.nextdoor.com/](https://developer.nextdoor.com/)
 
 #### Tags
 
@@ -44,15 +44,19 @@ Nextdoor developer platform with Advertising, Sharing, and Content Display APIs 
 - [Documentation](https://developer.nextdoor.com/docs)
 - [Reference](https://developer.nextdoor.com/reference)
 - [Changelog](https://developer.nextdoor.com/changelog)
+- [Postman Collection](collections/nextdoor.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/nextdoor.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 
 ## Common Properties
 
+- [GitHub Organization](https://github.com/Nextdoor)
+- [LinkedIn](https://www.linkedin.com/company/nextdoor-com)
 - [Documentation](https://developer.nextdoor.com/docs)
 - [Reference](https://developer.nextdoor.com/reference)
 - [Changelog](https://developer.nextdoor.com/changelog)
+- [L L Ms Txt](https://developer.nextdoor.com/llms.txt)
 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com

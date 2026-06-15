@@ -1,0 +1,325 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Nextdoor Developer API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "oauth2",
+      "flow": "authorization_code",
+      "authorizationUrl": "https://auth.nextdoor.com/v3/authorize",
+      "accessTokenUrl": "https://auth.nextdoor.com/v3/token",
+      "credentials": {
+        "clientId": "{{clientId}}",
+        "clientSecret": "{{clientSecret}}"
+      }
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Advertising",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Create an advertising campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/campaign/create"
+          },
+          "docs": "Create an advertising campaign"
+        },
+        {
+          "info": {
+            "name": "Get a campaign by ID",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/campaign/get/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get a campaign by ID"
+        },
+        {
+          "info": {
+            "name": "Update an existing campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/campaign/update"
+          },
+          "docs": "Update an existing campaign"
+        },
+        {
+          "info": {
+            "name": "Get statistics for a campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/campaign/get/:id/stats",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get statistics for a campaign"
+        },
+        {
+          "info": {
+            "name": "Create an ad",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/ad/create"
+          },
+          "docs": "Create an ad"
+        },
+        {
+          "info": {
+            "name": "List ads",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/ad/list"
+          },
+          "docs": "List ads"
+        },
+        {
+          "info": {
+            "name": "Get statistics for an ad",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/ad/get/:id/stats",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get statistics for an ad"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Creatives",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Create a creative asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/creative/create"
+          },
+          "docs": "Create a creative asset"
+        },
+        {
+          "info": {
+            "name": "Upload a video media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/video/upload"
+          },
+          "docs": "Upload a video media asset"
+        },
+        {
+          "info": {
+            "name": "Upload a logo media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/logo/upload"
+          },
+          "docs": "Upload a logo media asset"
+        },
+        {
+          "info": {
+            "name": "Upload a canvas media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/canvas/upload"
+          },
+          "docs": "Upload a canvas media asset"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Conversions",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Send a conversion tracking event",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/conversions/track"
+          },
+          "docs": "Send a conversion tracking event"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Posts",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Publish a post to Nextdoor",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-post"
+          },
+          "docs": "Publish a post to Nextdoor"
+        },
+        {
+          "info": {
+            "name": "Publish an event post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-event-post"
+          },
+          "docs": "Publish an event post"
+        },
+        {
+          "info": {
+            "name": "Publish a For Sale and Free (FSF) post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-fsf-post"
+          },
+          "docs": "Publish a For Sale and Free (FSF) post"
+        },
+        {
+          "info": {
+            "name": "Retrieve posts authored by the authenticated agent",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/get-your-posts"
+          },
+          "docs": "Retrieve posts authored by the authenticated agent"
+        },
+        {
+          "info": {
+            "name": "Edit an existing post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/edit-a-post"
+          },
+          "docs": "Edit an existing post"
+        },
+        {
+          "info": {
+            "name": "Delete a post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/delete-a-post"
+          },
+          "docs": "Delete a post"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Search",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Search posts",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/search-posts"
+          },
+          "docs": "Search posts"
+        },
+        {
+          "info": {
+            "name": "Search event items",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/search-event-items"
+          },
+          "docs": "Search event items"
+        },
+        {
+          "info": {
+            "name": "Search For Sale and Free items",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/search-fsf-items"
+          },
+          "docs": "Search For Sale and Free items"
+        },
+        {
+          "info": {
+            "name": "Search businesses",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/search-businesses"
+          },
+          "docs": "Search businesses"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
