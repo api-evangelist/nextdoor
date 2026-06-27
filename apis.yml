@@ -58,7 +58,7 @@ common:
     name: Nextdoor Changelog
     description: Changelog of Nextdoor API and platform updates.
     url: https://developer.nextdoor.com/changelog
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://developer.nextdoor.com/llms.txt
 maintainers:
   - FN: Kin Lane
