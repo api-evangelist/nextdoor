@@ -1,0 +1,67 @@
+generated: '2026-07-11'
+method: searched
+source: openapi/nextdoor-openapi.yml
+docs: https://developer.nextdoor.com/reference/sharing-get-authorization-code
+schemes:
+- name: oauth2
+  source: openapi/nextdoor-openapi.yml
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://auth.nextdoor.com/v3/authorize
+    tokenUrl: https://auth.nextdoor.com/v3/token
+  description: |-
+    Nextdoor uses OAuth-based access tokens to authorize API
+    requests. Refer to developer.nextdoor.com for token issuance
+    and required scopes.
+scopes:
+- scope: openid
+  description: Always include this scope in the authorization request.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: publish_api
+  description: Super scope covering all Publish API features (posts, comments,
+    profile, and agency boundary access).
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: post:write
+  description: Create, delete, or edit posts.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: post:read
+  description: Read post data.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: comment:write
+  description: Create, delete, or edit comments.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: profile:read
+  description: Get information on the authenticated user (unique user identifier,
+    name, profile picture, etc.). Required by the /me endpoint.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+  - https://developer.nextdoor.com/reference/me-1
+- scope: agency.boundary:read
+  description: Create geo-targeted agency posts.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+- scope: profile
+  description: Use only the /me and /me/profiles endpoints for user verification
+    purposes.
+  sources:
+  - https://developer.nextdoor.com/reference/sharing-get-authorization-code
+  - https://developer.nextdoor.com/docs/how-to-verify-the-user-using-nextdoor
+- scope: entity_page:claim
+  description: Allows partners to claim pages on Nextdoor (CMS partner flow).
+  sources:
+  - https://developer.nextdoor.com/reference/user-authentication-and-authorization
+- scope: article:write
+  description: Allows partners to create, update, and delete news articles (CMS
+    partner flow).
+  sources:
+  - https://developer.nextdoor.com/reference/user-authentication-and-authorization
+- scope: cms_api
+  description: Scope included in the CMS partner default scope parameter; no
+    further description documented.
+  sources:
+  - https://developer.nextdoor.com/reference/user-authentication-and-authorization
