@@ -1,0 +1,22 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/nextdoor-openapi.yml
+summary:
+  types:
+  - oauth2
+  oauth2_flows:
+  - authorizationCode
+schemes:
+- name: oauth2
+  type: oauth2
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://auth.nextdoor.com/v3/authorize
+    tokenUrl: https://auth.nextdoor.com/v3/token
+    scopes: 0
+  description: |-
+    Nextdoor uses OAuth-based access tokens to authorize API
+    requests. Refer to developer.nextdoor.com for token issuance
+    and required scopes.
+  sources:
+  - openapi/nextdoor-openapi.yml

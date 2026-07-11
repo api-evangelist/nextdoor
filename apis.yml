@@ -42,6 +42,12 @@ apis:
       - type: ChangeLog
         url: https://developer.nextdoor.com/changelog
 common:
+  - type: VulnerabilityDisclosure
+    url: security/nextdoor-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/nextdoor-domain-security.yml
+  - type: Authentication
+    url: authentication/nextdoor-authentication.yml
   - type: OAuthScopes
     url: scopes/nextdoor-scopes.yml
   - type: GitHubOrganization
