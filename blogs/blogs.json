@@ -1,0 +1,21 @@
+{
+  "repo": "nextdoor",
+  "feeds": [
+    {
+      "source": "https://blog.nextdoor.com/rss.xml",
+      "feed_url": "https://blog.nextdoor.com/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://developer.nextdoor.com/llms.txt",
+      "feed_url": "https://developer.nextdoor.com/llms.txt",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 12
+}
