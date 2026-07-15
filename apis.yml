@@ -42,6 +42,8 @@ apis:
       - type: ChangeLog
         url: https://developer.nextdoor.com/changelog
 common:
+  - type: AgenticAccess
+    url: agentic-access/nextdoor-agentic-access.yml
   - type: VulnerabilityDisclosure
     url: security/nextdoor-vulnerability-disclosure.yml
   - type: DomainSecurity
