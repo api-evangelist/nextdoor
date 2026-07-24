@@ -1,0 +1,75 @@
+openapi: 3.1.0
+info:
+  title: Nextdoor Developer Advertising Search API
+  description: 'Nextdoor''s developer platform exposes APIs for advertising
+
+    (campaign and ad management, conversion tracking), content
+
+    sharing and publishing (posts, events, FSF posts), and content
+
+    discovery (search and trending). Endpoints below are derived
+
+    from the public reference listing surfaced at developer.nextdoor.com.
+
+    '
+  version: 1.0.0
+servers:
+- url: https://developer.nextdoor.com
+  description: Nextdoor Developer API base
+security:
+- oauth2: []
+tags:
+- name: Search
+paths:
+  /v1/search-posts:
+    get:
+      summary: Search posts
+      operationId: searchPosts
+      tags:
+      - Search
+      responses:
+        '200':
+          description: Matching posts
+  /v1/search-event-items:
+    get:
+      summary: Search event items
+      operationId: searchEvents
+      tags:
+      - Search
+      responses:
+        '200':
+          description: Matching events
+  /v1/search-fsf-items:
+    get:
+      summary: Search For Sale and Free items
+      operationId: searchFsfItems
+      tags:
+      - Search
+      responses:
+        '200':
+          description: Matching FSF items
+  /v1/search-businesses:
+    get:
+      summary: Search businesses
+      operationId: searchBusinesses
+      tags:
+      - Search
+      responses:
+        '200':
+          description: Matching businesses
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      description: 'Nextdoor uses OAuth-based access tokens to authorize API
+
+        requests. Refer to developer.nextdoor.com for token issuance
+
+        and required scopes.
+
+        '
+      flows:
+        authorizationCode:
+          authorizationUrl: https://auth.nextdoor.com/v3/authorize
+          tokenUrl: https://auth.nextdoor.com/v3/token
+          scopes: {}

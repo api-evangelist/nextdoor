@@ -1,0 +1,48 @@
+openapi: 3.1.0
+info:
+  title: Nextdoor Developer Advertising Conversions API
+  description: 'Nextdoor''s developer platform exposes APIs for advertising
+
+    (campaign and ad management, conversion tracking), content
+
+    sharing and publishing (posts, events, FSF posts), and content
+
+    discovery (search and trending). Endpoints below are derived
+
+    from the public reference listing surfaced at developer.nextdoor.com.
+
+    '
+  version: 1.0.0
+servers:
+- url: https://developer.nextdoor.com
+  description: Nextdoor Developer API base
+security:
+- oauth2: []
+tags:
+- name: Conversions
+paths:
+  /v1/conversions/track:
+    post:
+      summary: Send a conversion tracking event
+      operationId: trackConversion
+      tags:
+      - Conversions
+      responses:
+        '200':
+          description: Conversion recorded
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      description: 'Nextdoor uses OAuth-based access tokens to authorize API
+
+        requests. Refer to developer.nextdoor.com for token issuance
+
+        and required scopes.
+
+        '
+      flows:
+        authorizationCode:
+          authorizationUrl: https://auth.nextdoor.com/v3/authorize
+          tokenUrl: https://auth.nextdoor.com/v3/token
+          scopes: {}
