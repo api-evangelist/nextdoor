@@ -7,9 +7,22 @@ description: >-
   measurement), Sharing APIs (Share Plugin and Publish to Nextdoor), and
   Displaying Content APIs (Trending Posts, Search, and Public Agency Feed).
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nextdoor.png
 tags:
   - Social
   - Local
@@ -22,25 +35,70 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: nextdoor:nextdoor
-    name: Nextdoor
-    description: >-
-      Nextdoor developer platform with Advertising, Sharing, and Content
-      Display APIs for connecting with hyperlocal audiences.
-    humanURL: https://developer.nextdoor.com/
-    tags:
-      - Social
-      - Local
-      - Advertising
-      - Community
-      - Sharing
-    properties:
-      - type: Documentation
-        url: https://developer.nextdoor.com/docs
-      - type: Reference
-        url: https://developer.nextdoor.com/reference
-      - type: ChangeLog
-        url: https://developer.nextdoor.com/changelog
+- aid: nextdoor:nextdoor
+  name: Nextdoor
+  description: >-
+    Nextdoor developer platform with Advertising, Sharing, and Content Display APIs for connecting with
+    hyperlocal audiences.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Social
+  - Local
+  - Advertising
+  - Community
+  - Sharing
+  properties:
+  - type: Documentation
+    url: https://developer.nextdoor.com/docs
+  - type: Reference
+    url: https://developer.nextdoor.com/reference
+  - type: ChangeLog
+    url: https://developer.nextdoor.com/changelog
+- aid: nextdoor:nextdoor-advertising-api
+  name: Nextdoor Advertising API
+  description: The Advertising API from Nextdoor — 7 operation(s) for advertising.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Advertising
+  properties:
+  - type: OpenAPI
+    url: openapi/nextdoor-advertising-api-openapi.yml
+- aid: nextdoor:nextdoor-conversions-api
+  name: Nextdoor Conversions API
+  description: The Conversions API from Nextdoor — 1 operation(s) for conversions.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Conversions
+  properties:
+  - type: OpenAPI
+    url: openapi/nextdoor-conversions-api-openapi.yml
+- aid: nextdoor:nextdoor-creatives-api
+  name: Nextdoor Creatives API
+  description: The Creatives API from Nextdoor — 4 operation(s) for creatives.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Creatives
+  properties:
+  - type: OpenAPI
+    url: openapi/nextdoor-creatives-api-openapi.yml
+- aid: nextdoor:nextdoor-posts-api
+  name: Nextdoor Posts API
+  description: The Posts API from Nextdoor — 6 operation(s) for posts.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Posts
+  properties:
+  - type: OpenAPI
+    url: openapi/nextdoor-posts-api-openapi.yml
+- aid: nextdoor:nextdoor-search-api
+  name: Nextdoor Search API
+  description: The Search API from Nextdoor — 4 operation(s) for search.
+  humanURL: https://developer.nextdoor.com/
+  tags:
+  - Search
+  properties:
+  - type: OpenAPI
+    url: openapi/nextdoor-search-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/nextdoor-agentic-access.yml
