@@ -1,0 +1,22 @@
+{
+  "provider": "nextdoor",
+  "sources": [
+    "nextdoor-advertising-api-openapi.yml",
+    "nextdoor-conversions-api-openapi.yml",
+    "nextdoor-creatives-api-openapi.yml",
+    "nextdoor-posts-api-openapi.yml",
+    "nextdoor-search-api-openapi.yml"
+  ],
+  "outputs": [
+    "nextdoor-advertising-api-openapi.yml",
+    "nextdoor-conversions-api-openapi.yml",
+    "nextdoor-creatives-api-openapi.yml",
+    "nextdoor-posts-api-openapi.yml",
+    "nextdoor-search-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
