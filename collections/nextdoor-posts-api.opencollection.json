@@ -1,0 +1,96 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Nextdoor Developer Advertising Posts API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "oauth2",
+      "flow": "authorization_code",
+      "authorizationUrl": "https://auth.nextdoor.com/v3/authorize",
+      "accessTokenUrl": "https://auth.nextdoor.com/v3/token",
+      "credentials": {
+        "clientId": "{{clientId}}",
+        "clientSecret": "{{clientSecret}}"
+      }
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Posts",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Publish a post to Nextdoor",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-post"
+          },
+          "docs": "Publish a post to Nextdoor"
+        },
+        {
+          "info": {
+            "name": "Publish an event post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-event-post"
+          },
+          "docs": "Publish an event post"
+        },
+        {
+          "info": {
+            "name": "Publish a For Sale and Free (FSF) post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/create-fsf-post"
+          },
+          "docs": "Publish a For Sale and Free (FSF) post"
+        },
+        {
+          "info": {
+            "name": "Retrieve posts authored by the authenticated agent",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/get-your-posts"
+          },
+          "docs": "Retrieve posts authored by the authenticated agent"
+        },
+        {
+          "info": {
+            "name": "Edit an existing post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/edit-a-post"
+          },
+          "docs": "Edit an existing post"
+        },
+        {
+          "info": {
+            "name": "Delete a post",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/delete-a-post"
+          },
+          "docs": "Delete a post"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

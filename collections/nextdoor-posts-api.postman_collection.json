@@ -1,0 +1,451 @@
+{
+  "item": [
+    {
+      "id": "a4d4d91e-f8b7-4c85-994e-66838b825ac1",
+      "name": "Posts",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "161c4627-3402-43ca-b052-cc59d08cee87",
+          "name": "Publish a post to Nextdoor",
+          "request": {
+            "name": "Publish a post to Nextdoor",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "create-post"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "82985784-f110-45b4-8a60-7f51ac68c49f",
+              "name": "Post created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "create-post"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1b80ea88-56b2-488e-aabb-ad93f9d8db4e",
+          "name": "Publish an event post",
+          "request": {
+            "name": "Publish an event post",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "create-event-post"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "08daa4e3-2346-483a-a66b-96dbf37fa1c8",
+              "name": "Event post created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "create-event-post"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "8db048a0-035a-4a1f-88b7-2706d7bbeccb",
+          "name": "Publish a For Sale and Free (FSF) post",
+          "request": {
+            "name": "Publish a For Sale and Free (FSF) post",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "create-fsf-post"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "23979194-ec35-420a-ba46-0f29e87baab4",
+              "name": "FSF post created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "create-fsf-post"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "5f47342c-bd44-4f2c-8312-90ed49b76cba",
+          "name": "Retrieve posts authored by the authenticated agent",
+          "request": {
+            "name": "Retrieve posts authored by the authenticated agent",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "get-your-posts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "84303492-e0b8-464b-86e0-2b4af18ebfd6",
+              "name": "List of posts",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "get-your-posts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "ba439702-a501-45c0-893a-64512f6289ff",
+          "name": "Edit an existing post",
+          "request": {
+            "name": "Edit an existing post",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "edit-a-post"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "9d2bba81-c444-4365-afc7-f3f25064b024",
+              "name": "Post updated",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "edit-a-post"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "2802ca47-350a-43ef-a8a5-ed422a57786f",
+          "name": "Delete a post",
+          "request": {
+            "name": "Delete a post",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "delete-a-post"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "6fcbbd84-e60c-4b66-b3f0-2aca240032ee",
+              "name": "Post deleted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "delete-a-post"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://developer.nextdoor.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": [
+      {
+        "key": "accessTokenUrl",
+        "value": "https://auth.nextdoor.com/v3/token"
+      },
+      {
+        "key": "authUrl",
+        "value": "https://auth.nextdoor.com/v3/authorize"
+      },
+      {
+        "key": "grant_type",
+        "value": "authorization_code"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "ec47b248-12a8-49de-bcb4-0cdaaca12931",
+    "name": "Nextdoor Developer Advertising Posts API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Nextdoor's developer platform exposes APIs for advertising\n(campaign and ad management, conversion tracking), content\nsharing and publishing (posts, events, FSF posts), and content\ndiscovery (search and trending). Endpoints below are derived\nfrom the public reference listing surfaced at developer.nextdoor.com.\n",
+      "type": "text/plain"
+    }
+  }
+}

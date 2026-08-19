@@ -1,0 +1,115 @@
+# Nextdoor for Developers: APIs, Documentation, & Tutorials Documentation
+
+> Unlock the power of Nextdoor's developer resources and documentation to create engaging local and community apps. Because if it's happening in your neighborhood, it's on Nextdoor, these tools will help you build stronger connections and gain clearer insights into advertising performance.
+
+## Guides
+- [Overview](https://developer.nextdoor.com/docs/overview.md)
+- [Account profiles](https://developer.nextdoor.com/docs/account-profiles.md)
+- [Content](https://developer.nextdoor.com/docs/posts.md)
+- [Overview](https://developer.nextdoor.com/docs/sharing-overview.md)
+- [Share using Business Account](https://developer.nextdoor.com/docs/business-share.md)
+- [Search API](https://developer.nextdoor.com/docs/overview-copy-1.md): Add local discussions, events, marketplace listings (and more) to your own website or app with our content APIs
+- [Trending Posts API](https://developer.nextdoor.com/docs/search-api-copy.md): Add local discussions, events, marketplace listings (and more) to your own website or app with our content APIs
+- [Public Agency Feed API](https://developer.nextdoor.com/docs/trending-posts-api-copy.md): Add local discussions, events, marketplace listings (and more) to your own website or app with our content APIs
+- [How to verify the user using Nextdoor](https://developer.nextdoor.com/docs/how-to-verify-the-user-using-nextdoor.md)
+
+## API Reference
+- [Applying for access](https://developer.nextdoor.com/reference/applying-for-access.md)
+- [Availability & Region](https://developer.nextdoor.com/reference/sharing-availability.md)
+- [Error codes](https://developer.nextdoor.com/reference/sharing-error-codes.md)
+- [Get authorization code](https://developer.nextdoor.com/reference/sharing-get-authorization-code.md)
+- [/me](https://developer.nextdoor.com/reference/me-1.md)
+- [/me/profiles](https://developer.nextdoor.com/reference/me-copy.md): See all profiles associated with this account. Does not support agency account.
+- [Create post](https://developer.nextdoor.com/reference/create-post.md): This endpoint support neighbor profile and business profile
+- [Create agency post](https://developer.nextdoor.com/reference/create-agency-post.md)
+- [Create event post](https://developer.nextdoor.com/reference/create-event-post.md)
+- [Create FSF post](https://developer.nextdoor.com/reference/create-fsf-post-3.md)
+- [Mark FSF post as sold](https://developer.nextdoor.com/reference/mark-fsf-sold.md)
+- [Create comment to a post / Create reply to a comment](https://developer.nextdoor.com/reference/create-comment-to-a-post-create-reply-to-a-comment.md)
+- [Edit a post](https://developer.nextdoor.com/reference/edit-a-post.md)
+- [Edit a comment](https://developer.nextdoor.com/reference/edit-a-comment.md)
+- [Delete a post](https://developer.nextdoor.com/reference/delete-a-post.md)
+- [Delete a comment](https://developer.nextdoor.com/reference/delete-a-comment.md)
+- [Get your posts](https://developer.nextdoor.com/reference/get-your-posts.md)
+- [Get agency neighborhood boundaries](https://developer.nextdoor.com/reference/get-agency-neighborhood-boundaries.md)
+- [Toggle commenting](https://developer.nextdoor.com/reference/toggle-commenting.md)
+- [Share Plugin](https://developer.nextdoor.com/reference/share-plugin.md): This page will help you get started with ShareKit.
+- [Nextdoor for News Partners](https://developer.nextdoor.com/reference/nextdoor-for-news-partners.md)
+- [Publisher Account Onboarding to Nextdoor](https://developer.nextdoor.com/reference/publisher-account-onboarding-to-nextdoor.md)
+- [User Authentication and Authorization](https://developer.nextdoor.com/reference/user-authentication-and-authorization.md)
+- [Page Claim on Nextdoor](https://developer.nextdoor.com/reference/page-claim-on-nextdoor.md)
+- [Create/Update News Article](https://developer.nextdoor.com/reference/createupdate-news-article.md)
+- [Delete Article](https://developer.nextdoor.com/reference/delete-article.md)
+- [Ingestion Report](https://developer.nextdoor.com/reference/article-ingestion-report.md): Use this endpoint to check whether specific CMS-supplied articles were successfully ingested and published on Nextdoor.
+- [Get Your Posts with Publish API](https://developer.nextdoor.com/reference/get-your-profiles.md): This document describes how to use the /me/profiles API and the "Get your posts" API to get interaction metrics on your posts.
+- [Availability & Region](https://developer.nextdoor.com/reference/displaying-availability.md)
+- [Data Types](https://developer.nextdoor.com/reference/displaying-data-types.md)
+- [Get access token](https://developer.nextdoor.com/reference/displaying-get-access-token.md)
+- [Search posts](https://developer.nextdoor.com/reference/search-posts.md)
+- [Search posts by signals](https://developer.nextdoor.com/reference/search-posts-signal.md)
+- [Search FSF items](https://developer.nextdoor.com/reference/search-fsf-items.md)
+- [Search Events](https://developer.nextdoor.com/reference/search-event-items.md)
+- [Search Businesses](https://developer.nextdoor.com/reference/search-businesses.md)
+- [Get posts for an agency](https://developer.nextdoor.com/reference/get-digest-data-for-an-agency.md)
+- [me](https://developer.nextdoor.com/reference/me.md)
+- [advertiser/create](https://developer.nextdoor.com/reference/advertiser-create.md)
+- [advertiser/get/{id}/stats](https://developer.nextdoor.com/reference/advertisergetidstats.md)
+- [advertiser/campaign/list](https://developer.nextdoor.com/reference/advertiser-campaign-list.md)
+- [advertiser/creative/list](https://developer.nextdoor.com/reference/advertiser-creative-list.md)
+- [advertiser/reporting/list](https://developer.nextdoor.com/reference/advertiser-reporting-list.md)
+- [campaign/create](https://developer.nextdoor.com/reference/campaign-create.md)
+- [campaign/update](https://developer.nextdoor.com/reference/campaign-update.md)
+- [campaign/get/{id}](https://developer.nextdoor.com/reference/campaign-get-id.md)
+- [campaign/get/{id}/stats](https://developer.nextdoor.com/reference/advertisergetidstats-copy.md)
+- [adgroup/create](https://developer.nextdoor.com/reference/adgroup-create.md)
+- [adgroup/get/{id}/stats](https://developer.nextdoor.com/reference/campaigngetidstats-copy.md)
+- [adgroup/list](https://developer.nextdoor.com/reference/adgroup-list.md)
+- [ad/create](https://developer.nextdoor.com/reference/ad-create.md)
+- [ad/get/{id}/stats](https://developer.nextdoor.com/reference/adgroupgetidstats-copy.md)
+- [ad/list](https://developer.nextdoor.com/reference/ad-list.md)
+- [creative/create](https://developer.nextdoor.com/reference/creative-create.md)
+- [creative/create(Video)](https://developer.nextdoor.com/reference/creativecreatevideo.md)
+- [creative/create (PFQ Lead-gen)](https://developer.nextdoor.com/reference/creative-create-pfq-lead-gen.md)
+- [creative/update (PFQ Lead-gen)](https://developer.nextdoor.com/reference/creativeupdate-pfq-lead-gen-copy.md)
+- [creative/update (Video)](https://developer.nextdoor.com/reference/creativeupdate-video.md)
+- [creative/get/{id}/stats](https://developer.nextdoor.com/reference/adgetidstats-copy.md)
+- [media/logo/upload](https://developer.nextdoor.com/reference/media-logo-upload.md)
+- [media/canvas/upload](https://developer.nextdoor.com/reference/media-canvas-upload.md)
+- [media/video/upload](https://developer.nextdoor.com/reference/mediavideoupload.md)
+- [reporting/create](https://developer.nextdoor.com/reference/reporting-create.md)
+- [reporting/scheduled/create](https://developer.nextdoor.com/reference/reporting-scheduled-create.md)
+- [targeting/geo/postalcode/bulk_match](https://developer.nextdoor.com/reference/targeting-geo-postal-code-bulk_match.md)
+- [custom_audience/create](https://developer.nextdoor.com/reference/custom_audiencecreate.md)
+- [custom_audience/get/<id>](https://developer.nextdoor.com/reference/custom_audience-get-id.md)
+- [custom_audience/archive](https://developer.nextdoor.com/reference/custom_audiencearchive.md)
+- [Universal Pixel](https://developer.nextdoor.com/reference/universal-pixel.md)
+- [Implementation Guides](https://developer.nextdoor.com/reference/implementation-guide.md)
+- [New Advertisers](https://developer.nextdoor.com/reference/for-net-new-advertisers.md): Purpose: Guide advertisers setting up a Nextdoor pixel for the first time.
+- [Existing Advertisers](https://developer.nextdoor.com/reference/for-existing-advertisers-migration-guide.md): Purpose: Guide advertisers who are currently using the legacy Nextdoor pixel and need to migrate to the Universal Pixel framework
+- [Additional Notes](https://developer.nextdoor.com/reference/additional-notes.md)
+- [Supported Conversion Event Names](https://developer.nextdoor.com/reference/supported-conversion-events.md): These are the conversion event names supported by the universal pixel framework.
+- [Conversion API (CAPI)](https://developer.nextdoor.com/reference/conversion-api.md)
+- [Restricted Data Usage](https://developer.nextdoor.com/reference/privacy-and-restricted-data-usage.md)
+- [conversions/track](https://developer.nextdoor.com/reference/conversions-track.md): The conversions/track API reference page explains how developers can report and track conversion events to Nextdoor via the Nextdoor CAPI, detailing required parameters and example event data formats.
+- [Get agency boundaries](https://developer.nextdoor.com/reference/get-agency-boundaries-1.md)
+- [Get agency neighborhood boundaries](https://developer.nextdoor.com/reference/get-agency-neighborhood-boundaries-1.md)
+- [Create/Update News Article](https://developer.nextdoor.com/reference/createupdate-news-article-1.md)
+- [Delete Article](https://developer.nextdoor.com/reference/delete-article-1.md)
+- [Create comment to a post / Create reply to a comment](https://developer.nextdoor.com/reference/create-comment-to-a-post-create-reply-to-a-comment-1.md)
+- [Edit a comment](https://developer.nextdoor.com/reference/edit-a-comment-1.md)
+- [Delete a comment](https://developer.nextdoor.com/reference/delete-a-comment-1.md)
+- [Page Claim on Nextdoor](https://developer.nextdoor.com/reference/page-claim-on-nextdoor-1.md)
+- [/external/api/partner/v1/ingestion_report](https://developer.nextdoor.com/reference/post_externalapipartnerv1ingestion_report.md)
+- [/me](https://developer.nextdoor.com/reference/me-1-1.md)
+- [/me/profiles](https://developer.nextdoor.com/reference/me-copy-1.md): See all profiles associated with this account. Does not support agency account.
+- [Edit a post](https://developer.nextdoor.com/reference/edit-a-post-1.md)
+- [Delete a post](https://developer.nextdoor.com/reference/delete-a-post-1.md)
+- [Get your posts](https://developer.nextdoor.com/reference/get-your-posts-1.md)
+- [Create post](https://developer.nextdoor.com/reference/create-post-1.md): This endpoint support neighbor profile and business profile
+- [Create event post](https://developer.nextdoor.com/reference/create-event-post-1.md)
+- [Create FSF post](https://developer.nextdoor.com/reference/create-fsf-post-3-1.md)
+- [Mark FSF post as sold](https://developer.nextdoor.com/reference/mark-fsf-sold-1.md)
+- [Toggle commenting](https://developer.nextdoor.com/reference/toggle-commenting-1.md)
+
+## Changelog
+- [Welcome to Nextdoor's Developer Portal!](https://developer.nextdoor.com/changelog/welcome-to-nextdoor-test.md)

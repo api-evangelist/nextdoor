@@ -1,0 +1,41 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Nextdoor Developer Advertising Conversions API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "oauth2",
+      "flow": "authorization_code",
+      "authorizationUrl": "https://auth.nextdoor.com/v3/authorize",
+      "accessTokenUrl": "https://auth.nextdoor.com/v3/token",
+      "credentials": {
+        "clientId": "{{clientId}}",
+        "clientSecret": "{{clientSecret}}"
+      }
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Conversions",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Send a conversion tracking event",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/conversions/track"
+          },
+          "docs": "Send a conversion tracking event"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,317 @@
+{
+  "item": [
+    {
+      "id": "d338072f-db82-4002-b4fc-11000fef6c44",
+      "name": "Search",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "82f61b2e-f1e8-4b5e-9d54-aa5c69050a89",
+          "name": "Search posts",
+          "request": {
+            "name": "Search posts",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "search-posts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "eae624be-c3f8-4330-a831-37f0b5b6064b",
+              "name": "Matching posts",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "search-posts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "93ea147e-4802-4ee0-85e0-acaefb1bd775",
+          "name": "Search event items",
+          "request": {
+            "name": "Search event items",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "search-event-items"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "ce6b954b-96ba-4951-a0b6-44d7f49007f4",
+              "name": "Matching events",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "search-event-items"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "91896c4f-dfc1-46d7-b17d-c15d3d422cff",
+          "name": "Search For Sale and Free items",
+          "request": {
+            "name": "Search For Sale and Free items",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "search-fsf-items"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d451c46f-9787-4a6e-8ef1-bafa764d9055",
+              "name": "Matching FSF items",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "search-fsf-items"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "9a1b7364-9c18-41b0-bed5-ef14209b022f",
+          "name": "Search businesses",
+          "request": {
+            "name": "Search businesses",
+            "description": {},
+            "url": {
+              "path": [
+                "v1",
+                "search-businesses"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d7dd91bc-c9fb-44b1-bded-a6f303502025",
+              "name": "Matching businesses",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "v1",
+                    "search-businesses"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://developer.nextdoor.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": [
+      {
+        "key": "accessTokenUrl",
+        "value": "https://auth.nextdoor.com/v3/token"
+      },
+      {
+        "key": "authUrl",
+        "value": "https://auth.nextdoor.com/v3/authorize"
+      },
+      {
+        "key": "grant_type",
+        "value": "authorization_code"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "0fb4976b-2388-445f-afc1-e378b9bdefe1",
+    "name": "Nextdoor Developer Advertising Search API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Nextdoor's developer platform exposes APIs for advertising\n(campaign and ad management, conversion tracking), content\nsharing and publishing (posts, events, FSF posts), and content\ndiscovery (search and trending). Endpoints below are derived\nfrom the public reference listing surfaced at developer.nextdoor.com.\n",
+      "type": "text/plain"
+    }
+  }
+}

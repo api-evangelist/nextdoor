@@ -1,0 +1,74 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Nextdoor Developer Advertising Creatives API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "oauth2",
+      "flow": "authorization_code",
+      "authorizationUrl": "https://auth.nextdoor.com/v3/authorize",
+      "accessTokenUrl": "https://auth.nextdoor.com/v3/token",
+      "credentials": {
+        "clientId": "{{clientId}}",
+        "clientSecret": "{{clientSecret}}"
+      }
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Creatives",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Create a creative asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/creative/create"
+          },
+          "docs": "Create a creative asset"
+        },
+        {
+          "info": {
+            "name": "Upload a video media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/video/upload"
+          },
+          "docs": "Upload a video media asset"
+        },
+        {
+          "info": {
+            "name": "Upload a logo media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/logo/upload"
+          },
+          "docs": "Upload a logo media asset"
+        },
+        {
+          "info": {
+            "name": "Upload a canvas media asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/media/canvas/upload"
+          },
+          "docs": "Upload a canvas media asset"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

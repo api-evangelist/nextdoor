@@ -1,0 +1,128 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Nextdoor Developer Advertising API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "oauth2",
+      "flow": "authorization_code",
+      "authorizationUrl": "https://auth.nextdoor.com/v3/authorize",
+      "accessTokenUrl": "https://auth.nextdoor.com/v3/token",
+      "credentials": {
+        "clientId": "{{clientId}}",
+        "clientSecret": "{{clientSecret}}"
+      }
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Advertising",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Create an advertising campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/campaign/create"
+          },
+          "docs": "Create an advertising campaign"
+        },
+        {
+          "info": {
+            "name": "Get a campaign by ID",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/campaign/get/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get a campaign by ID"
+        },
+        {
+          "info": {
+            "name": "Update an existing campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/campaign/update"
+          },
+          "docs": "Update an existing campaign"
+        },
+        {
+          "info": {
+            "name": "Get statistics for a campaign",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/campaign/get/:id/stats",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get statistics for a campaign"
+        },
+        {
+          "info": {
+            "name": "Create an ad",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://developer.nextdoor.com/v1/ad/create"
+          },
+          "docs": "Create an ad"
+        },
+        {
+          "info": {
+            "name": "List ads",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/ad/list"
+          },
+          "docs": "List ads"
+        },
+        {
+          "info": {
+            "name": "Get statistics for an ad",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://developer.nextdoor.com/v1/ad/get/:id/stats",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get statistics for an ad"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
