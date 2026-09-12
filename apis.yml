@@ -111,6 +111,8 @@ apis:
   - type: OpenAPI
     url: openapi/nextdoor-search-api-openapi.yml
 common:
+  - type: Website
+    url: https://www.nextdoor.com/
   - type: AgenticAccess
     url: agentic-access/nextdoor-agentic-access.yml
   - type: VulnerabilityDisclosure
