@@ -79,6 +79,8 @@ apis:
   description: The Conversions API from Nextdoor — 1 operation(s) for conversions.
   humanURL: https://developer.nextdoor.com/
   tags:
+  - Conversion
+  tags_raw:
   - Conversions
   properties:
   - type: OpenAPI
@@ -88,6 +90,8 @@ apis:
   description: The Creatives API from Nextdoor — 4 operation(s) for creatives.
   humanURL: https://developer.nextdoor.com/
   tags:
+  - Creative
+  tags_raw:
   - Creatives
   properties:
   - type: OpenAPI
