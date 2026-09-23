@@ -1,11 +1,7 @@
 {
   "provider": "nextdoor",
   "sources": [
-    "nextdoor-advertising-api-openapi.yml",
-    "nextdoor-conversions-api-openapi.yml",
-    "nextdoor-creatives-api-openapi.yml",
-    "nextdoor-posts-api-openapi.yml",
-    "nextdoor-search-api-openapi.yml"
+    "_original/nextdoor-openapi.yml"
   ],
   "outputs": [
     "nextdoor-advertising-api-openapi.yml",
@@ -17,6 +13,16 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "nextdoor-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "nextdoor-advertising-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "nextdoor-conversions-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "nextdoor-creatives-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "nextdoor-posts-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "nextdoor-search-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

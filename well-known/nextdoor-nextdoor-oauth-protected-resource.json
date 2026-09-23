@@ -1,0 +1,1 @@
+{"resource": "https://nextdoor.com/api/mcp/", "authorization_servers": ["https://nextdoor.okta.com/oauth2/aus1iltbdo6QsqRFR1d8"], "scopes_supported": ["openid", "profile", "email", "groups"], "bearer_methods_supported": ["header"]}
