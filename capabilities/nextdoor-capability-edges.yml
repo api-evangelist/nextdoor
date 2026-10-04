@@ -1,0 +1,51 @@
+slug: nextdoor
+provider: Nextdoor
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 4
+edges:
+- tag: Advertising
+  spec_file: nextdoor-advertising-api-openapi.yml
+  capability_id: BC-400.60
+  capability_id_l1: BC-400
+  capability_name: Digital Marketing Management
+  confidence: 0.9
+  evidence: POST /v1/campaign/create 'Create an advertising campaign'; 'Get statistics for an ad'
+  reason: Operations create and manage paid advertising campaigns and ads on a social network with performance
+    stats — digital/paid media marketing management.
+- tag: Conversions
+  spec_file: nextdoor-conversions-api-openapi.yml
+  capability_id: BC-400.60
+  capability_id_l1: BC-400
+  capability_name: Digital Marketing Management
+  confidence: 0.8
+  evidence: POST /v1/conversions/track 'Send a conversion tracking event'
+  reason: Ad conversion tracking is measurement of paid digital media performance, part of digital marketing
+    management.
+- tag: Creatives
+  spec_file: nextdoor-creatives-api-openapi.yml
+  capability_id: BC-400.60
+  capability_id_l1: BC-400
+  capability_name: Digital Marketing Management
+  confidence: 0.75
+  evidence: POST /v1/creative/create 'Create a creative asset'; 'Upload a logo media asset'
+  reason: Creation and upload of ad creative assets supports digital advertising execution; could also
+    be content marketing, hence moderate confidence.
+- tag: Posts
+  spec_file: nextdoor-posts-api-openapi.yml
+  capability_id: BC-400.60
+  capability_id_l1: BC-400
+  capability_name: Digital Marketing Management
+  confidence: 0.7
+  evidence: POST /v1/create-post 'Publish a post to Nextdoor'; 'Publish an event post'
+  reason: Publishing and editing branded social posts is social/digital marketing publishing; ambiguity
+    with content marketing lowers confidence.

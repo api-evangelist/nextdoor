@@ -115,6 +115,9 @@ apis:
   - type: OpenAPI
     url: openapi/nextdoor-search-api-openapi.yml
 common:
+  - type: CapabilityMap
+    url: capabilities/nextdoor-capability-edges.yml
+    name: Nextdoor Business Capability Map
   - type: Website
     url: https://www.nextdoor.com/
   - type: AgenticAccess
