@@ -115,6 +115,12 @@ apis:
   - type: OpenAPI
     url: openapi/nextdoor-search-api-openapi.yml
 common:
+  - type: Plans
+    url: plans/nextdoor-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/nextdoor-rate-limits.yml
+  - type: FinOps
+    url: finops/nextdoor-finops.yml
   - type: CapabilityMap
     url: capabilities/nextdoor-capability-edges.yml
     name: Nextdoor Business Capability Map
