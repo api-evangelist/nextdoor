@@ -1,4 +1,4 @@
-# Nextdoor (nextdoor)
+# Nextdoor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,61 +66,141 @@
 
 Nextdoor for Developers offers APIs to advertise on, share to, and display content from Nextdoor, the neighborhood-based social network. The developer platform groups capabilities into Advertising APIs (campaign management and measurement), Sharing APIs (Share Plugin and Publish to Nextdoor), and Displaying Content APIs (Trending Posts, Search, and Public Agency Feed).
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/apis.yml)
+**Areas:** Social · Local · Advertising · Community · Sharing
 
-## Scope
+## Nextdoor on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Nextdoor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nextdoor/](https://apis.io/providers/nextdoor/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (6)
 
-- Social
-- Local
-- Advertising
-- Community
-- Sharing
+- [Nextdoor](https://apis.io/apis/nextdoor/nextdoor/) — Nextdoor developer platform with Advertising, Sharing, and Content Display APIs for connecting with hyperlocal audiences.
+- [Nextdoor Advertising API](https://apis.io/apis/nextdoor/nextdoor-advertising-api/) — The Advertising API from Nextdoor — 7 operation(s) for advertising.
+- [Nextdoor Conversions API](https://apis.io/apis/nextdoor/nextdoor-conversions-api/) — The Conversions API from Nextdoor — 1 operation(s) for conversions.
+- [Nextdoor Creatives API](https://apis.io/apis/nextdoor/nextdoor-creatives-api/) — The Creatives API from Nextdoor — 4 operation(s) for creatives.
+- [Nextdoor Posts API](https://apis.io/apis/nextdoor/nextdoor-posts-api/) — The Posts API from Nextdoor — 6 operation(s) for posts.
+- [Nextdoor Search API](https://apis.io/apis/nextdoor/nextdoor-search-api/) — The Search API from Nextdoor — 4 operation(s) for search.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-09
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### MCP servers (1)
 
-### Nextdoor
+Model Context Protocol servers that expose the API to agents.
 
-Nextdoor developer platform with Advertising, Sharing, and Content Display APIs for connecting with hyperlocal audiences.
+- [nextdoor](https://apis.io/servers/nextdoor/nextdoor/)
 
-- **Human URL:** [https://developer.nextdoor.com/](https://developer.nextdoor.com/)
+#### Agentic access (1)
 
-#### Tags
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- Social
-- Local
-- Advertising
-- Community
-- Sharing
+- [Nextdoor Agentic Access](https://apis.io/agentic-access/nextdoor/nextdoor-agentic-access/)
 
-#### Properties
+#### Collections (6)
 
+Postman and Open Collection request collections.
+
+- [Nextdoor Developer API](https://apis.io/collections/nextdoor/open-nextdoor/)
+- [Nextdoor Developer Advertising API](https://apis.io/collections/nextdoor/open-nextdoor-advertising-api/)
+- [Nextdoor Developer Advertising Conversions API](https://apis.io/collections/nextdoor/open-nextdoor-conversions-api/)
+- [Nextdoor Developer Advertising Creatives API](https://apis.io/collections/nextdoor/open-nextdoor-creatives-api/)
+- [Nextdoor Developer Advertising Posts API](https://apis.io/collections/nextdoor/open-nextdoor-posts-api/)
+- [Nextdoor Developer Advertising Search API](https://apis.io/collections/nextdoor/open-nextdoor-search-api/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nextdoor Authentication](https://apis.io/security/nextdoor/nextdoor-authentication/)
+- [Nextdoor Domain Security](https://apis.io/security/nextdoor/nextdoor-domain-security/)
+- [Nextdoor Vulnerability Disclosure](https://apis.io/security/nextdoor/nextdoor-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Nextdoor Scopes](https://apis.io/scopes/nextdoor/nextdoor-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nextdoor Plans Pricing](https://apis.io/plans/nextdoor/nextdoor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Nextdoor Rate Limits](https://apis.io/rate-limits/nextdoor/nextdoor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Nextdoor Finops](https://apis.io/finops/nextdoor/nextdoor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nextdoor.com/)
 - [Documentation](https://developer.nextdoor.com/docs)
-- [Reference](https://developer.nextdoor.com/reference)
 - [Changelog](https://developer.nextdoor.com/changelog)
-- [Postman Collection](collections/nextdoor.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/nextdoor.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Blog](https://blog.nextdoor.com/rss.xml)
+- [GitHub](https://github.com/Nextdoor)
 
-## Common Properties
+## API Evangelist rating
 
-- [GitHub Organization](https://github.com/Nextdoor)
-- [LinkedIn](https://www.linkedin.com/company/nextdoor-com)
-- [Documentation](https://developer.nextdoor.com/docs)
-- [Reference](https://developer.nextdoor.com/reference)
-- [Changelog](https://developer.nextdoor.com/changelog)
-- [L L Ms Txt](https://developer.nextdoor.com/llms.txt)
+**Kin Score 28.5** — thin · rubric 0.25.0 · scored 2026-10-23
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 40.4 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 7.9 |
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Agent readiness 43.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 27.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nextdoor/](https://apis.io/providers/nextdoor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nextdoor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nextdoor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
